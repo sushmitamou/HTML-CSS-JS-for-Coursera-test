@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    margin-left: 3% !important;
+}
+.banner h2{
+    text-align: center !important;
+}
+.bg-light{
+    background-color: rgb(142, 142, 143) !important;
+}
+.all-content .content{
+    background-color: rgb(142, 142, 143);
+    margin: 2% !important;
+    padding: 1% 2% !important;
+}
+.all-content .content h4{
+    text-align: center;
+}
+.navbar-nav{
+    display: none !important;
+}
+
+@media screen and (max-width: 768px){
+    .navbar-toggler{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 425px){
+    .navbar-toggler{
+        display: flex !important;
+    }
+    .navbar-nav{
+        display: flex !important;
+    }
+}
